@@ -1,0 +1,51 @@
+.carousel {
+
+  /* border: 1px solid black; */
+  display: block;
+  height: 300px;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.content {
+  display: block;
+  white-space: nowrap;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.rec {
+
+  /* border: 1px solid rgb(167, 166, 166); */
+  border-radius: 5px;
+  box-shadow: 0 10px 12px -5px rgb(167, 166, 166);
+  display: inline-block;
+  height: 270px;
+  margin-right: 13px;
+  width: 173px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 25px;
+}
+
+p {
+  color: grey;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.title {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+}

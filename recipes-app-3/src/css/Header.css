@@ -1,0 +1,74 @@
+button {
+  border: 0;
+}
+
+.header {
+  align-items: center;
+  background: linear-gradient(rgba(181, 150, 71, 1), red 100%, rgba(163, 29, 15, 1));
+  box-sizing: border-box;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-explore {
+  align-items: center;
+  background: linear-gradient(rgba(181, 150, 71, 1), red 100%, rgba(163, 29, 15, 1));
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+
+/* .search-off {
+  display: none;
+}
+
+.search-on {
+  align-content: center;
+  align-items: center;
+  background: lightgray;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  justify-content: space-around;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+} */
+
+.show-bar {
+  margin-bottom: 120px;
+}
+
+.header > p {
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-explore > p {
+  color: black;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.ico_user {
+  height: 30px;
+  margin: 0 15px;
+  width: 30px;
+}
+
+.ico-search {
+  cursor: pointer;
+  height: 30px;
+  margin: 0 15px;
+  width: 30px;
+}
+
+.ico-search-btn {
+  background: transparent;
+}

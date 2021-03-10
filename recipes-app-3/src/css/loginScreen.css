@@ -1,0 +1,15 @@
+.form-group {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  max-height: 640px;
+  max-width: 360px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  max-height: 1240px;
+  min-height: 640px;
+  width: 100%;
+}
